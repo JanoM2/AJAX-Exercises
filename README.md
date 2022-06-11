@@ -1,2 +1,2 @@
 # AJAX-exercises
-Practicando AJAX con ejercicios
+Practicando AJAX con ejercicios 💻
