@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
   $form.addEventListener("submit", (e) => {
     e.preventDefault();
 
-    fetch("https://formsubmit.co/ajax/martinojano0@gmail.com", {
+    fetch("https://formsubmit.co/ajax/simonferreras@outlook.com", {
       method: "POST",
       body: new FormData($form),
     })
@@ -63,3 +63,5 @@ document.addEventListener("DOMContentLoaded", () => {
       });
   });
 });
+
+// simonferreras@outlook
