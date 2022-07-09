@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  text-align: center;
+  height: 90vh;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1,
+p {
+  background-color: antiquewhite;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+p {
+    font-weight: bold;
+  font-size: 1.5rem;
+}
