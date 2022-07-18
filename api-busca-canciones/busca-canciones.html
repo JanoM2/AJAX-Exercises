@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="busca-canciones.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>Buscador de Canciones</h1>
+  <form class="form">
+    <input type="text" name="band" id="band" placeholder="Buscar Banda..." autocomplete="off" required />
+    <input type="text" name="song" id="song" placeholder="Buscar Canciones..." autocomplete="off" required />
+    <input type="submit" class="btn">
+  </form>
+  <div class="ldr"></div>
+  <div class="error"></div>
+  <main>
+    <section class="tempArtista"></section>
+    <section class="tempSong"></section>
+  </main>
+
+  <script src="busca-canciones.js"></script>
+</body>
+
+</html>
