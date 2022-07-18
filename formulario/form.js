@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
   $form.addEventListener("submit", (e) => {
     e.preventDefault();
 
-    fetch("https://formsubmit.co/ajax/simonferreras@outlook.com", {
+    fetch("https://formsubmit.co/ajax/mailexample@youremail.com", {
       method: "POST",
       body: new FormData($form),
     })
