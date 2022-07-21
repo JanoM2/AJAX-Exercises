@@ -1,0 +1,92 @@
+html {
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(232, 233, 243);
+  background: rgb(2, 0, 36);
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(81, 81, 232, 1) 68%,
+    rgba(0, 255, 4, 1) 100%
+  );
+  scroll-behavior: smooth;
+}
+
+section {
+  text-align: center;
+}
+
+a {
+  color: greenyellow;
+  padding: 0.5rem;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  align-self: center;
+  border: 1px white solid;
+  border-radius: 2rem;
+}
+
+div {
+  align-self: center;
+}
+
+input {
+  border: medium solid rgba(81, 81, 232, 1);
+  border-radius: 2rem;
+  box-shadow: 0.05rem 0.05rem 0.05rem 0.05rem rgb(124, 124, 224);
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+  align-self: center;
+}
+
+img {
+  clip-path: inset(1rem round 1rem);
+  align-self: center;
+}
+
+img:hover {
+  transform: scale(1.1, 1.1);
+}
+
+@media screen and (min-width: 900px) {
+  .show {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    justify-content: space-between;
+    align-content: center;
+  }
+
+  body h1 {
+    grid-column: span 2;
+  }
+
+  .show a {
+    grid-column: span 2;
+    text-align: center;
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .show {
+    grid-template-columns: repeat(3, 30%);
+  }
+
+  body h1 {
+    grid-column: span 3;
+  }
+
+  .show a {
+    grid-column: span 3;
+    text-align: center;
+    border: 1px white solid;
+    padding: 1.5rem 0rem;
+    width: 99%;
+  }
+}
