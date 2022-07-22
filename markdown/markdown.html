@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <main>
+    <h1>markdown</h1>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>
+  <script>
+    const d = document,
+      $main = document.querySelector("main");
+
+    fetch("/markdown/markdown.md")
+      .then((res) => {
+        return res.text();
+      })
+      .then((text) => {
+        $main.innerHTML = new showdown.Converter().makeHtml(text);
+      })
+      .catch((err) => {
+        console.error(err);
+        $main.innerHTML = `Error: ${err} - ${err.status}`;
+      });
+  </script>
+</body>
+
+</html>
