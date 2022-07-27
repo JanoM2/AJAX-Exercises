@@ -1,0 +1,103 @@
+html {
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+a {
+  color: blue;
+  transition: all 0.3s ease-out;
+}
+
+a:hover {
+  opacity: 0.75;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+hr {
+  border: thin solid blue;
+  margin: 3rem auto;
+  width: 80%;
+}
+
+.site {
+  margin: 1rem auto;
+  padding: 1rem;
+  max-width: 50%;
+  text-align: center;
+}
+
+.post {
+  margin: 1rem auto;
+  padding: 1rem;
+  max-width: 80%;
+  background-color: rgb(237, 237, 237);
+}
+
+.post-author img {
+  border-radius: 50%;
+}
+
+.post-date {
+  margin: 1rem auto;
+  display: block;
+}
+
+.post-excerpt,
+.post-categories,
+.post-tags,
+.post-content {
+  text-align: left;
+}
+
+.post-content summary {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.post-content > article {
+  padding: 1rem;
+  background-color: rgb(221, 221, 221);
+}
+
+.post-content img {
+  display: block;
+  margin: auto;
+}
+
+.loader {
+  position: sticky;
+  left: 45%;
+  border: 8px solid #dedede;
+  border-radius: 50%;
+  border-top: 8px solid #3498db;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: spin 2s linear infinite;
+  /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
