@@ -1,0 +1,157 @@
+html {
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+a {
+  color: blue;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: rgb(2, 2, 160);
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* loader */
+
+.loader {
+  position: sticky;
+  margin: 1rem;
+  left: 48%;
+  border: 8px solid #dedede;
+  border-radius: 50%;
+  border-top: 8px solid #237bff;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: spin 1.5s linear infinite;
+  /* Safari */
+  animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.form-search {
+  margin: auto;
+  text-align: center;
+}
+
+.form-search input {
+  display: block;
+  margin: auto;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+}
+
+.header {
+  padding: 0.5rem;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  background-color: white;
+}
+
+.header > * {
+  margin: 1rem auto;
+}
+
+.post-card {
+  margin: 1rem auto;
+  padding: 1rem;
+  width: 80%;
+  background-color: rgb(230, 230, 230);
+}
+
+.post-card p {
+  display: flex;
+  justify-content: space-between;
+}
+.grid-fluid {
+  margin: 1rem auto;
+  max-width: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.post-page {
+  margin: 1rem auto;
+  padding: 1rem;
+  width: 80%;
+  background-color: rgb(230, 230, 230);
+}
+
+.post-page > aside {
+  margin: auto;
+  width: 60%;
+  text-align: center;
+}
+
+.post-page > hr {
+  border: thin solid rgb(169, 169, 169);
+  margin: 2rem auto;
+  width: 80%;
+}
+
+.post-page time {
+  margin: 1rem auto;
+  display: block;
+}
+
+.post-page > article {
+  padding: 0 2rem;
+}
+
+.post-page img,
+.post-page audio,
+.post-page iframe,
+.post-page video {
+  margin: auto;
+  display: block;
+  max-width: 100%;
+}
+
+.error {
+  padding: 1rem;
+  font-size: 150%;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  background-color: rgb(255, 46, 46);
+}
+
+.error mark {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  display: inline-block;
+  color: #fff;
+  background-color: rgb(73, 73, 255);
+}
