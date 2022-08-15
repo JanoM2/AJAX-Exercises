@@ -1,4 +1,4 @@
-const NAME = `malvestida`,
+const NAME = `lucylara`,
   DOMAIN = `https://${NAME}.com/`,
   SITE = `${DOMAIN}/wp-json`,
   API_WP = `${SITE}/wp/v2`,
