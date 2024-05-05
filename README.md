@@ -1,3 +1,10 @@
 # AJAX-exercises
 Practicando AJAX con ejercicios 💻
-Todo en https://codepen.io/your-work/
+
+Tecnologias usadas:
+--
+
+Aprendi cosas como:
+--
+
+Demo de Todo en https://codepen.io/your-work/
