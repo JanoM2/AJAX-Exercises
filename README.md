@@ -1,15 +1,15 @@
 # AJAX-exercises
-📍 Practicando AJAX con ejercicios 💻
+📍 Learning AJAX with Practical Exercises 💻
 
-Tecnologias usadas:
-- Utilice XAMPP, Js, Html, Css y algo de PHP, Manipulacion del DOM, WordPress REST API, Markdown y Control de APIs
+Technologies used:
+- I used XAMPP, JavaScript, HTML, CSS and some PHP, DOM Manipulation, WordPress REST API, Markdown, and API control.
 
-Aprendi cosas como:
-- Fetching, Manejo de APIs, Markdown, crear un entorno de prueba local con XAMPP y utilizar la REST API de Wordpress  
+I learned things like:
+- Learned how to fetch data, handle APIs, use Markdown, create a local test environment with XAMPP, and use the WordPress REST API.
 
-📍 Demo de Todo en mi [CodeOpen](https://codepen.io/janom2/)
+📍 Demo about everything here in my [CodeOpen](https://codepen.io/janom2/)
 
-Y otras demos abajo 👇  
+Other demos below 👇  
 * [API Pokemons](https://codepen.io/janom2/pen/XWELWrN)  
 * [Instagram Desing](https://codepen.io/janom2/pen/OJvKJrK)  
 * [WordPress REST API](https://codepen.io/janom2/pen/gOeNOYQ)  
